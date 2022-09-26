@@ -29,6 +29,19 @@ fn main() {
     println!("{}",str4);
 
 
+
+    /************************slice*****************************/
+
+    let str5 = String::from("hello");
+    
+    let len = str5.len();
+    
+    let slice = &str5[3..len];
+    let slice = &str5[3..];
+
+    
+
+
     println!("Hello, world!");
 }
 
